@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import plotly
 import plotly.express as px
 import plotly.graph_objects as go
 from datetime import datetime, timedelta
@@ -358,3 +359,4 @@ with tab3:
 
     st.markdown("### Data Preview")
     st.dataframe(sample_data, use_container_width=True)
+
